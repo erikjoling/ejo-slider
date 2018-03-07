@@ -3,7 +3,7 @@
  * Plugin Name:         Ejo Slider
  * Plugin URI:          http://github.com/erikjoling/ejo-slider
  * Description:         A WordPress slider plugin
- * Version:             0.1
+ * Version:             0.1.1
  * Author:              Erik Joling
  * Author URI:          https://www.ejoweb.nl/
  * Text Domain:         ejo-slider
@@ -21,7 +21,7 @@
 final class EJO_Slider {
     
     // Version number
-    public $version = '0.1';
+    public $version = '0.1.1';
 
     // Store the slug
     public $slug = 'ejo-slider';

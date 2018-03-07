@@ -1,7 +1,7 @@
 <?php
 
 // Register Custom Post Type
-function register_slide_post_type() {
+function ejo_register_slide_post_type() {
 
 	$labels = array(
 		'name'                  => _x( 'Slides', 'Post Type General Name', 'ejo-slider' ),
@@ -56,4 +56,4 @@ function register_slide_post_type() {
 	register_post_type( 'slide', $args );
 
 }
-add_action( 'init', 'register_slide_post_type', 0 );
+add_action( 'init', 'ejo_register_slide_post_type', 0 );
